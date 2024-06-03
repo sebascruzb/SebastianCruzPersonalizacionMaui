@@ -3,13 +3,11 @@
     x:Class="SebastianCruzPersonalizacionMaui.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:SebastianCruzPersonalizacionMaui"
+    xmlns:views="clr-namespace:SebastianCruzPersonalizacionMaui.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="SebastianCruzPersonalizacionMaui">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <FlyoutItem Title="Burgers" Icon="icon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:BurgerListPageSC}" />
+    </FlyoutItem>
 </Shell>

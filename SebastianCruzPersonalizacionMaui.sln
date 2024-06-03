@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SebastianCruzPersonalizacionMaui", "SebastianCruzPersonalizacionMaui\SebastianCruzPersonalizacionMaui.csproj", "{561BB985-8A1E-4FDE-BC7B-345AADC70E82}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SebastianCruz_Taller2", "..\..\VisualStudio\BurgerBD\SebastianCruz_Taller2-master\SebastianCruz_Taller2\SebastianCruz_Taller2.csproj", "{391C7C6E-751B-4CC0-8E74-C7F781489CDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SebastianCruz_APIBurger", "..\..\VisualStudio\BurgerAPI\SebastianCruz_APIBurger.csproj", "{97CFBEB8-9F4C-4D3A-8202-9A25347768F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{561BB985-8A1E-4FDE-BC7B-345AADC70E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{561BB985-8A1E-4FDE-BC7B-345AADC70E82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{561BB985-8A1E-4FDE-BC7B-345AADC70E82}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{391C7C6E-751B-4CC0-8E74-C7F781489CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391C7C6E-751B-4CC0-8E74-C7F781489CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391C7C6E-751B-4CC0-8E74-C7F781489CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391C7C6E-751B-4CC0-8E74-C7F781489CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CFBEB8-9F4C-4D3A-8202-9A25347768F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CFBEB8-9F4C-4D3A-8202-9A25347768F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CFBEB8-9F4C-4D3A-8202-9A25347768F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CFBEB8-9F4C-4D3A-8202-9A25347768F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
